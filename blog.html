@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="px-8 mt-8">
+    <div class="bg-slate-200 p-4 rounded-2xl mb-8">
+        <h1 class="text-4xl font-bold">Discuss the scope of `var`, `let`, and `const`</h1>
+        <p>
+        <h3 class="text-2xl my-2 text-fuchsia-800 font-medium">'var':</h3> 'var' are hoisted to the top of their
+        containing function or global context.This means that you
+        can access a var variable before it's declared in the code.</p>
+        <p>
+        <h3 class="text-2xl my-2 text-fuchsia-800 font-medium">'let':</h3> 'let' variable are not hoisted. You cannot
+        access them before they are declared. it's block
+        scope, you cane change this variable value.</p>
+        <p>
+        <h3 class="text-2xl my-2 text-fuchsia-800 font-medium">'const':</h3> 'const' also have block scope, just like
+        let. but you can't change this variable value.</p>
+    </div>
+
+    <div class="bg-slate-200 p-4 rounded-2xl mb-8">
+        <h1 class="text-4xl font-bold">Tell us the use cases of `null` and `undefined`</h1>
+
+        <p>
+        <h3 class="text-2xl my-2 text-fuchsia-800 font-medium">null:</h3>null is typically used when you want to
+        explicitly indicate that a variable or object property has
+        no
+        value or that it is intentionally empty or non-existent. It can be used to represent the intentional absence of
+        an
+        object or value.</p>
+        <p>
+        <h3 class="text-2xl my-2 text-fuchsia-800 font-medium">undefined:</h3> Variables that have been declared but
+        have not been assigned a value automatically have the
+        value undefined.Functions that do not return a value explicitly return undefined.If you try to access an object
+        property that does not exist, it will return undefined.</p>
+    </div>
+    <div class="bg-slate-200 p-4 rounded-2xl mb-8">
+        <h1 class="text-4xl font-bold">What do you mean by REST API?</h1>
+        <p>
+        <h3 class="text-2xl my-2 text-fuchsia-800 font-medium">Ans:</h3> REST API, which stands for Representational State Transfer Application Programming Interface, is a
+        set
+        of architectural principles and constraints used for designing networked applications. It's a style of designing
+        networked applications where resources are identified by unique URLs (Uniform Resource Locators), and
+        interactions
+        with these resources are performed using standard HTTP methods. REST is not a protocol; it's an architectural
+        style
+        that uses HTTP for communication.</p>
+    </div>
+
+    <div class="flex justify-center">
+        <h2 class="btn bg-blue-500 text-white text-2xl px-6 py-2 rounded-lg mb-8 font-semibold w-1/8 text-center"><a href="index.html">Back</a></h2>
+    </div>
+
+</body>
+
+</html>
